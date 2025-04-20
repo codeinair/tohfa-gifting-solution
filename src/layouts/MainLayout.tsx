@@ -467,7 +467,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     <>
       <Header>
         <Logo to="/">
-          <LogoImage src={require('../assets/temporary-for-building-website/tohfa logo 1.3.png')} alt="Tohfa Gifting Solution" />
+          <LogoImage src={require('../assets/images/logo/tohfa-logo.png')} alt="Tohfa Gifting Solution" />
         </Logo>
         <Nav>
           <NavLink to="/">Home</NavLink>

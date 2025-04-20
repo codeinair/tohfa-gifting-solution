@@ -501,7 +501,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
             >
               <MobileNavCloseButton onClick={toggleMobileNav}>&times;</MobileNavCloseButton>
               <MobileMenuLogo>
-                <img src={require('../assets/temporary-for-building-website/tohfa logo 1.3.png')} alt="Tohfa Gifting Solution" />
+                <img src={require('../assets/images/logo/tohfa-logo.png')} alt="Tohfa Gifting Solution" />
               </MobileMenuLogo>
               <NavLink to="/" onClick={toggleMobileNav}>Home</NavLink>
               <NavLink to="/shop" onClick={toggleMobileNav}>Shop</NavLink>
